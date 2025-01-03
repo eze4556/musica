@@ -1,0 +1,40 @@
+.user-detail-segment {
+  margin-bottom: 20px;
+}
+
+.form-section {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ion-item {
+  margin-bottom: 10px;
+}
+
+
+   /* Estilo de "R.E.C" en la esquina inferior derecha */
+.rec-text {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 255, 0, 0.6); /* Sombra verde para resaltar */
+}
+
+.imagenes-container {
+  display: flex;
+  flex-wrap: wrap;  // Permitir que las imágenes se ajusten en varias líneas si no hay suficiente espacio
+  gap: 5px;         // Espacio entre las imágenes
+}
+
+.strap-image {
+  max-width: 100px; // Ajustar el ancho máximo de la imagen
+  max-height: 100px; // Ajustar la altura máxima de la imagen (opcional)
+}
+ion-content {
+  --background: #00ff00; /* Verde flúor */
+  padding: 16px;
+}
